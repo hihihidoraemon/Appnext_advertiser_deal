@@ -38,7 +38,7 @@ def run_analysis(input_path: str, output_path: str) -> None:
 
 st.set_page_config(page_title="Offer 收入计算", layout="centered")
 
-st.title("Offer 收入计算")
+st.title("Appnext Offer 收入计算")
 st.caption("上传包含三张 sheet 的 Excel，计算近 30 天收入概况与 reject/event 率，并下载结果。")
 
 # ---------- 1. 下载模板（直接从 GitHub 拉取） ----------
